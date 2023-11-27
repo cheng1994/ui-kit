@@ -1,9 +1,9 @@
 {
-  "name": "react-ui-kit",
+  "name": "@cheng1994/react-ui-kit",
   "private": true,
   "version": "0.0.2",
   "type": "module",
-  "description": "",
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
   "license": "MIT",
   "author": "Gordon Chen",
   "files": [
@@ -19,10 +19,10 @@
     }
   },
   "publishConfig": {
-    "@cheng1994:registry": "https://npm.pkg.github.com"
+    "registry": "https://registry.npmjs.org/"
   },
   "repository": {
-    "url": "https://github.com/cheng1994/ui-kit.git"
+    "url": "git+https://github.com/cheng1994/ui-kit.git"
   },
   "browserslist": {
     "production": [
@@ -91,5 +91,14 @@
     "storybook": "^7.5.3",
     "typescript": "^5.0.2",
     "vite": "^4.4.5"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/cheng1994/ui-kit/issues"
+  },
+  "homepage": "https://github.com/cheng1994/ui-kit#readme",
+  "keywords": [
+    "react",
+    "ui",
+    "vite"
+  ]
 }
