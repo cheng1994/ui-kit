@@ -18,11 +18,12 @@
       "require": "./dist/index.umd.js"
     }
   },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
-  },
   "repository": {
+    "type": "git",
     "url": "git+https://github.com/cheng1994/ui-kit.git"
+  },
+  "publishConfig": {
+    "@cheng1994:registry": "https://npm.pkg.github.com"
   },
   "browserslist": {
     "production": [
