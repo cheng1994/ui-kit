@@ -1,7 +1,7 @@
 {
   "name": "react-ui-kit",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "description": "",
   "license": "MIT",
@@ -22,7 +22,7 @@
     "@cheng1994:registry": "https://npm.pkg.github.com"
   },
   "repository": {
-    "url": "https://github.com/cheng1994/uilibrary.git"
+    "url": "https://github.com/cheng1994/ui-kit.git"
   },
   "browserslist": {
     "production": [
