@@ -1,6 +1,6 @@
 {
   "name": "@cheng1994/react-ui-kit",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "type": "module",
   "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
   "license": "MIT",
