@@ -1,6 +1,6 @@
 {
   "name": "@cheng1994/react-ui-kit",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "type": "module",
   "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
   "license": "MIT",
@@ -90,7 +90,8 @@
     "eslint-plugin-storybook": "^0.6.15",
     "storybook": "^7.5.3",
     "typescript": "^5.0.2",
-    "vite": "^4.4.5"
+    "vite": "^4.4.5",
+    "vite-plugin-dts": "^3.7.2"
   },
   "bugs": {
     "url": "https://github.com/cheng1994/ui-kit/issues"
