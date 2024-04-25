@@ -1,3 +1,5 @@
+import classNames from "classnames";
+
 interface TextInputProps {
     /**
      * Determines the overall background styling and border of the input
@@ -30,6 +32,13 @@ interface TextInputProps {
     disabled?: boolean
 }
 
+const variantStyles = (variant: string) => 
+    classNames({
+        'border border-gray-300': variant === 'outlined',
+        'border border-gray-300 bg-gray-100': variant === 'soft',
+        'border border-gray-300 bg-white': variant === 'solid',
+    });
+
 export const TextInput = ({
     variant = 'plain',
     size = 'med',
@@ -37,6 +46,16 @@ export const TextInput = ({
 }: TextInputProps) => {
     return (
         <input 
+            className={
+                classNames('rounded-lg p-2 w-100', 
+                variantStyles(variant),
+                {
+                    'text-sm': size === 'sm',
+                    'text-base': size === 'med',
+                    'text-lg': size === 'lg',
+                }
+                )
+            }
             type="text" 
             {...props}
         />

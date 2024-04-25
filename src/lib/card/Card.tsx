@@ -1,6 +1,6 @@
 import classNames from "classnames";
 
-interface CardProps {
+export interface CardProps {
     /**
      * What background color to use
      */
@@ -45,7 +45,7 @@ export const Card = ({
                 classNames('rounded-lg drop-shadow-2xl border-slate-400 border-2 transition-all ease-in max-w-', 
                     {'p-0': noPadding }, 
                     paddingSizes(size), 
-                    widthSizes(size)
+                    widthSizes(width)
                 )} 
             style={{ backgroundColor }}
             {...props}>
